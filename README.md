@@ -4,5 +4,6 @@ I use overleaf a lot in my work but i have a series of problem with it. The hist
 
 To remedie these, this repo is set up such that any commit will trigger a pdf build. Comments and online edits can be done via the github online editor.
 
+To use this, reimport (or fork) this repo. It will automatically rebuild the `document.tex` file. Note that forks cannot be private in github.
 
 This is powered by github actions. This repo uses softprops/action-gh-release@v1 and xu-cheng/latex-action@v2. Also thanks to whomever came up with the release tag hack for release@v1.
